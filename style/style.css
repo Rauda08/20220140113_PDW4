@@ -1,0 +1,114 @@
+body{
+	height: 100%;
+	margin: 0px;
+	padding: 0px;
+	font-family: garamond;
+	box-sizing: border-box;
+  background-color: #191f3a;
+}
+.foto{
+	width: 450px;
+	height: 650px;
+	border-radius: 29px;
+	position: absolute;
+	top: 120%;
+	left: 30%;
+	transform: translate(-50%,-50%);
+	box-shadow: 5px 5px 15px 5px #4b5ca7;
+	overflow: hidden;
+	display: inline-block;
+    justify-content: center;
+    align-items: center;
+} 
+
+.form {
+  text-align: center;
+  padding: 20px;
+  box-shadow: 5px 5px 15px 5px #4b5ca7;
+  margin-left: 700px;
+  margin-right: 150px;
+  margin-top: 100px;
+} 
+
+.form label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.form input[type="text"],
+.form input[type="password"] {
+  width: 80%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.form button {
+  background-color: #04AA6D;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 20%;
+  top: 100%;
+}
+
+.form button:hover {
+  opacity: 0.8;
+}
+
+.judul{
+  text-align: center;
+}
+
+
+.deskripsi{
+  position: absolute;
+  top: 140%;
+  text-align: center;
+  vertical-align: auto;
+color: #9586d9;
+margin-left: 700px;
+margin-right: 95px;
+}
+
+h1 {
+
+  color: rgb(104, 104, 192);
+  text-align: center;
+font-family: "Brush Script MT";
+}
+h2 {
+  color: rgb(107, 42, 124);
+top: 100%;
+  left: 20%;
+}
+h3 {
+  color: rgb(191, 80, 152);
+top: 190%;
+  left: 20%;
+  text-shadow: #ccc;
+}
+h4 {
+  color: rgb(191, 80, 152);
+top: 200%;
+  left: 20%;
+} 
+p {
+  font-family: "times new roman"
+}
+
+.card {
+  padding: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width : 900 px;
+  height : 500px;
+  border-radius: 20px;
+  
+}
+

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- Judul Web -->
+        <title>Moonphase</title>
+
+        <!-- Menghubungkan file eksternal CSS -->
+        <link rel="stylesheet" href="style\style.css">
+    </head>
+
+    <div class="foto"> 
+        <img src="assets\IMG_5219.JPG" width="450" height="750" alt="moon">
+        </div>
+
+    <body>     
+      
+        <h1 style="color:rgb(135, 77, 164); font-size: 60px; text-align: center;" top: 10>MOON</h1>         <!-- Inline CSS -->
+        
+        <div class="judul">
+        <h2 style="color:rgb(226, 97, 151); font-size: 35px;">beauty of moon</h2>    <!-- Internal CSS -->
+        <h3>The moon has a very distinctive beauty</h3>
+        <h4>Please Login if you like the moon</h4>
+        </div>
+
+        <div class="deskripsi">   
+        <p>The Moon is Earth's only natural satellite and is the fifth largest satellite in the Solar System.</p>
+        <p>The Moon is also the largest natural satellite in the Solar System by the size of the planets it orbits,[e] with a diameter of 27%, a density of 60%, and a mass of 1⁄81 (1.23%) that of Earth.</p>
+        <p> Among other natural satellites, the Moon is the second densest satellite after Io, a satellite of Jupiter.</p>
+        </div>
+
+        
+        <!-- membuat label username dan password dan login -->  
+        <div class="form">  
+            <h2>Login</h2>
+            <form>    
+                <label for="username" style="color: rgb(206, 196, 255);">Username:</label><br />
+                <input type="text" id="Username" name="Username" /><br />
+                <label for="password" style="color: rgb(204, 174, 253) ;">Password:</label><br />
+                <input type="password" id="password" name="Password"><br />
+                <button onclick="klik()">Login</button>    
+            </form>  
+                <p id="waktu"></p>                          
+                <!-- memunculkan alert tulisan hello -->  
+                <script>                                                                
+                    function klik(){
+                        alert("Login Success!!!");     
+                    }
+                </script>
+                <script src="./script/main.js"></script>        <!-- memanggil javascript eksternal fungsi date -->     
+        </div>
+
+</body>
+</html>
